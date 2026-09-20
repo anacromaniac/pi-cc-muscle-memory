@@ -1,0 +1,41 @@
+{
+  "name": "@anacromaniac/pi-cc-muscle-memory",
+  "version": "0.1.0",
+  "description": "Claude Code muscle memory for pi: /clear, /exit and /rename work like you expect.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "claude-code",
+    "aliases",
+    "slash-commands"
+  ],
+  "author": "anacromaniac",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anacromaniac/pi-cc-muscle-memory.git"
+  },
+  "homepage": "https://github.com/anacromaniac/pi-cc-muscle-memory#readme",
+  "bugs": {
+    "url": "https://github.com/anacromaniac/pi-cc-muscle-memory/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/clear-alias/index.ts",
+      "./extensions/exit-alias/index.ts",
+      "./extensions/rename-alias/index.ts"
+    ]
+  }
+}
