@@ -101,7 +101,7 @@ With auth in place, from a clean `main`:
 
 ```bash
 npm pack --dry-run                 # inspect the tarball first
-npm version patch                  # or minor / major; skips nothing
+npm version patch                  # bumps patch; use minor/major as needed
 npm publish                        # publishes the version in package.json
 git push --follow-tags             # push the bump + tag
 ```
