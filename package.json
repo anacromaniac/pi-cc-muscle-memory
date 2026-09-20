@@ -1,6 +1,6 @@
 {
   "name": "@anacromaniac/pi-cc-muscle-memory",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Claude Code muscle memory for pi: /clear, /exit and /rename work like you expect.",
   "keywords": [
     "pi-package",
@@ -12,6 +12,10 @@
   ],
   "author": "anacromaniac",
   "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.19.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anacromaniac/pi-cc-muscle-memory.git"
