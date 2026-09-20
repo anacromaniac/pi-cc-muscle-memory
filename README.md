@@ -17,21 +17,15 @@ the built-ins — nothing is reimplemented, nothing is overridden.
 ## Install
 
 ```bash
-pi install git:git@github.com:anacromaniac/pi-cc-muscle-memory@v0.1.0
+pi install git:git@github.com:anacromaniac/pi-cc-muscle-memory
 ```
 
 Or add it to the `packages` array in `~/.pi/agent/settings.json`:
 
 ```json
 {
-  "packages": ["git:git@github.com:anacromaniac/pi-cc-muscle-memory@v0.1.0"]
+  "packages": ["git:git@github.com:anacromaniac/pi-cc-muscle-memory"]
 }
-```
-
-From npm (once published):
-
-```bash
-pi install npm:@anacromaniac/pi-cc-muscle-memory
 ```
 
 Verify with `pi list`. If you install this package, delete any local copies of
