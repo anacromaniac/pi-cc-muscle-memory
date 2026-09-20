@@ -1,6 +1,6 @@
 # pi-cc-muscle-memory
 
-[![npm version](https://img.shields.io/npm/v/@anacromaniac/pi-cc-muscle-memory.svg)](https://www.npmjs.com/package/@anacromaniac/pi-cc-muscle-memory)
+[![npm version](https://img.shields.io/npm/v/pi-cc-muscle-memory.svg)](https://www.npmjs.com/package/pi-cc-muscle-memory)
 
 > Claude Code muscle memory for [pi](https://github.com/earendil-works/pi).
 
@@ -19,14 +19,14 @@ the built-ins — nothing is reimplemented, nothing is overridden.
 ## Install
 
 ```bash
-pi install npm:@anacromaniac/pi-cc-muscle-memory
+pi install npm:pi-cc-muscle-memory
 ```
 
 Or add it to the `packages` array in `~/.pi/agent/settings.json`:
 
 ```json
 {
-  "packages": ["npm:@anacromaniac/pi-cc-muscle-memory"]
+  "packages": ["npm:pi-cc-muscle-memory"]
 }
 ```
 
@@ -112,8 +112,8 @@ the version is already `1.0.0` in `package.json`, so skip `npm version` and
 go straight to `npm publish` (then `git push`, adding a `v1.0.0` tag yourself
 if you want one).
 
-`publishConfig.access` is already `public`, so the scoped package needs no
-`--access` flag. Published versions are immutable: never republish the same
+Unscoped packages are published as public automatically, so no `--access`
+flag is needed. Published versions are immutable: never republish the same
 version, always bump.
 
 ## License

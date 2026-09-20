@@ -1,5 +1,5 @@
 {
-  "name": "@anacromaniac/pi-cc-muscle-memory",
+  "name": "pi-cc-muscle-memory",
   "version": "1.0.0",
   "description": "Claude Code muscle memory for pi: /clear, /exit and /rename work like you expect.",
   "keywords": [
